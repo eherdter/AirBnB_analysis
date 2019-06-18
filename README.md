@@ -41,13 +41,12 @@ __Summary of Results__
 4. My suggestion for best value is to search for a private room within the 8th district. While the price of a private room is nearly as much as an entire room or apartment the private rooms are frequently loft spaces or part of a duplex that are much nicer than entire apartments listed at the same price. The private rooms in this district generally have private bathrooms but do share a common entrance space or outdoor living space.   
 
 __Link to public post on this project__
-I have summarized my analysis on these data in a blog post that you can read here. **INSERT LINK**
+I have summarized my analysis on these data in a blog post that you can read here. **INSERT LINK**  
 
 __Python Version and Package Requirements__
+This analysis was performed using Python Version 2.7.15.  
 
-This analysis was performed using Python Version 2.7.15.
-
-* pandas==0.23.1`
+* pandas==0.23.1
 * numpy==1.15.0
 * seaborn==0.9.0
 * matplotlib==2.2.3
@@ -56,6 +55,6 @@ This analysis was performed using Python Version 2.7.15.
 
 
 __Files in Repository__
-Data Folder - *listings.csv*, *calendar.csv*, and *paris_districts.csv*.
-Main Jupyter Notebook
-Figures Folder - figures produced by the analysis
+1. Data Folder - *listings.csv*, *calendar.csv*, and *paris_districts.csv*.  
+2. Main Jupyter Notebook
+3. Figures Folder - figures produced by the analysis
