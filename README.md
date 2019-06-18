@@ -1,24 +1,24 @@
-## Traveling to Paris, France? How to get the biggest bang from your buck using AirBnb.
+## Traveling to Paris, France? How to get the biggest bang from your buck using Airbnb.
 
 
 TO DO : INSERT LINK TO BLOG POST, PROOFREAD, ADD IN R2 score from RF prediction.
 
 __Project Motivation__
-There are more than 50,000 AirBnB listings in Paris, France (at the time of this analysis) spread across Paris’ 20 unique neighborhoods (or districts). The number of listings by room type and property type can be overwhelming for a traveler using AirBnb to determine which listings would be considered **best value** options.     
+There are more than 50,000 Airbnb listings in Paris, France (at the time of this analysis) spread across Paris’ 20 unique neighborhoods (or districts). The number of listings by room type and property type can be overwhelming for a traveler using Airbnb to determine which listings would be considered **best value** options.     
 
-To inform future travelers to Paris who may use AirBnb to find lodging this analysis:
+To inform future travelers to Paris who may use Airbnb to find lodging this analysis:
 1. Provides a summary overview of price by `district` and `room_type`   
 2. Determines which user selectable options are most influential to listing price (`adjusted_price`)  
 3. Suggests an overall **best value** option founded on insight gained from the data  
 
 __Major questions answered in the analysis__
 1.	What is the breakdown of listings by room type?  
-2.	How much does an AirBnB cost by district and room type?   
+2.	How much does an Airbnb cost by district and room type?   
 3.	Does superhost status influence listing price?  
-4.	Of user options on the AirBnB website, which selection most strongly influences the price of a listing?   
+4.	Of user options on the Airbnb website, which selection most strongly influences the price of a listing?   
 
 __Summary of Methods__
-I used publicly available [datasets](http://insideairbnb.com/get-the-data.html) on Paris, France AirBnB listings to answer the above questions. I applied some cleaning/feature engineering steps to optimize the data for the analysis, visualization, and modeling steps. These included:  
+I used publicly available [datasets](http://insideAirbnb.com/get-the-data.html) on Paris, France Airbnb listings to answer the above questions. I applied some cleaning/feature engineering steps to optimize the data for the analysis, visualization, and modeling steps. These included:  
 
 1.	Changing data types of select variables
 2.  Inferring missing values for beds, bedrooms, and bathrooms columns
@@ -32,7 +32,7 @@ I also parsed the Arrondissements table from the [Arrondissements of Paris Wikip
 I used the scikit RandomForestRegression function to apply a RandomForest algorithm to the dataset.
 
 __Summary of Results__
-1. There are more than 50,000 AirBnB listings in Paris; the majority of them are entire apartments, houses, or condos. A remaining small proportion are private rooms. Less than 1% are shared spaces.   
+1. There are more than 50,000 Airbnb listings in Paris; the majority of them are entire apartments, houses, or condos. A remaining small proportion are private rooms. Less than 1% are shared spaces.   
 
 2. The most expensive district (based on median listing price) is the 8th district. Generally, entire apartments are the most expensive regardless of district and shared rooms are least expensive. Private rooms are nearly as much as entire apartments within the most expensive districts whereas within moderately priced districts, median price of private rooms generally fall within the middle price range between entire apartments and shared rooms.   
 
