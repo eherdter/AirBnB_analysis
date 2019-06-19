@@ -3,21 +3,21 @@
 
 TO DO : INSERT LINK TO BLOG POST, PROOFREAD, ADD IN R2 score from RF prediction.
 
-__Project Motivation__
-There are more than 50,000 Airbnb listings in Paris, France (at the time of this analysis) spread across Paris’ 20 unique neighborhoods (or districts). The number of listings by room type and property type can be overwhelming for a traveler using Airbnb to determine which listings would be considered **best value** options (read Summary section for my **best value** suggestion).    
+##Project Motivation
+There are more than 50,000 Airbnb listings in Paris, France (at the time of this analysis) spread across Paris’ 20 unique neighborhoods (or districts). The number of listings by room type and property type can be overwhelming for a traveler using Airbnb to determine which listings would be considered **best value** options. The goal of this analysis is to gain insight into the trends in listing price and distill the data into a few key points or take-aways that would be useful and informative to future travelers to Paris. I provide my **Best Value** suggestion in the **Summary of Results** section which is based on the insight that I gained in this analysis.
 
-To inform future travelers to Paris who may use Airbnb to find lodging this analysis:
-1. Provides a summary overview of price by `district` and `room_type`   
-2. Determines which user selectable options are most influential to listing price (`adjusted_price`)  
-3. Suggests an overall **best value** option founded on insight gained from the data  
+The goal of this analysis is to:
+1. Provide a summary overview of price by `district` and `room_type`   
+2. Determine which user selectable options are most influential to listing price (`adjusted_price`)  
+3. Suggest an overall **best value** option founded on insight gained from the data  
 
-__Major questions answered in the analysis__
+##Major questions answered in the analysis
 1.	What is the breakdown of listings by room type?  
 2.	How much does an Airbnb cost by district and room type?   
 3.	Does superhost status influence listing price?  
 4.	Of user options on the Airbnb website, which selection most strongly influences the price of a listing?   
 
-__Summary of Methods__
+##Summary of Methods
 I used publicly available [data](http://insideAirbnb.com/get-the-data.html) on Paris, France Airbnb listings to answer the above questions. I applied some cleaning/feature engineering steps to optimize the data for the analysis, visualization, and modeling steps. These included:  
 
 1.Changing data types of select variables
@@ -31,22 +31,22 @@ I also parsed the Arrondissements table from the [Arrondissements of Paris Wikip
 
 I used the scikit-learn RandomForestRegression function to predict listing price based on a set of features that users are able to select when they search for a listing.
 
-__Summary of Results__
+##Summary of Results
 1. There are more than 50,000 Airbnb listings in Paris; the majority of them are entire apartments, houses, or condos. A remaining small proportion are private rooms. Less than 1% are shared spaces.     
 
 2. The most expensive district (based on median listing price) is the 8th district. Generally, entire apartments are the most expensive regardless of district and shared rooms are least expensive. Private rooms are nearly as much as entire apartments within the most expensive districts whereas within moderately priced districts, median price of private rooms generally fall within the middle price range between entire apartments and shared rooms.     
 
 3. The trained RandomForest model evaluated with a testing dataset yielded an R2 (r square) value of 0.73. This can be improved upon but it is a solid starting point. The three most influential predictors of price of the evaluated features were:  
-      A.  **neighborhood**  
-      B.  **superhost status**  
+      A. **neighborhood**  
+      B. **superhost status**  
       C. **room type**     
 
 4. **My suggestion for best value** is to search for a private room within the 8th district. While the price of a private room is nearly as much as an entire room or apartment the private rooms are frequently loft spaces or part of a duplex that are much nicer than entire apartments listed at the same price. The private rooms in this district generally have private bathrooms but do share a common entrance space or outdoor living space.   
 
-__Link to public post on this project__
+##Link to public post on this project
 I have summarized my analysis on these data in a blog post that you can read here. **INSERT LINK**  
 
-__Python Version and Package Requirements__
+##Python Version and Package Requirements
 This analysis was performed using Python Version 2.7.15.    
 
 Package versions:   
@@ -58,7 +58,7 @@ Package versions:
 * Unidecode==1.1.0
 
 
-__Files in Repository__
+##Files in Repository
 1. Data Folder - *listings.csv*, *calendar.csv*, and *paris_districts.csv*.  
 2. Main Jupyter Notebook
 3. Figures Folder - figures produced by the analysis
