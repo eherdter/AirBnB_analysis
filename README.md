@@ -42,7 +42,7 @@ It may be the inclination of a traveler to select non-superhost status if they w
 4. The trained RandomForest model evaluated with a testing dataset yielded an R2 (r square) value of 0.73. This can be improved upon but it is a solid starting point. The three most influential predictors of price of the evaluated features were:  
       A. **neighborhood**  
       B. **superhost status**  
-      C. **room type**     
+      C. **property type**     
 
 5. **My suggestion for best value** is to search for a private room within the 8th district. While the price of a private room is nearly as much as an entire room or apartment the private rooms are frequently loft spaces or part of a duplex that are much nicer than entire apartments listed at the same price. The private rooms in this district generally have private bathrooms but do share a common entrance space or outdoor living space.   
 
