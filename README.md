@@ -33,14 +33,18 @@ I used the scikit-learn RandomForestRegression function to predict listing price
 ## Summary of Results
 1. There are more than 50,000 Airbnb listings in Paris; the majority of them are entire apartments, houses, or condos. A remaining small proportion are private rooms. Less than 1% are shared spaces.     
 
-2. The most expensive district (based on median listing price) is the 8th district. Generally, entire apartments are the most expensive regardless of district and shared rooms are least expensive. Private rooms are nearly as much as entire apartments within the most expensive districts whereas within moderately priced districts, median price of private rooms generally fall within the middle price range between entire apartments and shared rooms.     
+2. The most expensive district (based on median listing price) is the 8th district. Generally, entire apartments are the most expensive regardless of district and shared rooms are least expensive. Private rooms are nearly as much as entire apartments within the most expensive districts whereas within moderately priced districts, median price of private rooms generally fall within the middle price range between entire apartments and shared rooms.  
 
-3. The trained RandomForest model evaluated with a testing dataset yielded an R2 (r square) value of 0.73. This can be improved upon but it is a solid starting point. The three most influential predictors of price of the evaluated features were:  
+3. As hypothesized, entire homes/apartments offered by superhosts are more expensive that those offered by non-superhosts regardless of district. The difference is minimized in district 17, 19, 20, and 9.
+Surprisingly, the sweet spot seems to again be with the private rooms. In district 1, 2,3,5,7,8, and 9, a superhost listing for a private room is, on average, less expensive than that offered by a non-superhost.
+It may be the inclination of a traveler to select non-superhost status if they wish to save some money BUT the best value would be to, counterintuitively, actually chose superhost status and opt for a private room in the more expensive districts as private rooms are generally entire lofts or duplexes which frequently only share an entrace.   
+
+4. The trained RandomForest model evaluated with a testing dataset yielded an R2 (r square) value of 0.73. This can be improved upon but it is a solid starting point. The three most influential predictors of price of the evaluated features were:  
       A. **neighborhood**  
       B. **superhost status**  
       C. **room type**     
 
-4. **My suggestion for best value** is to search for a private room within the 8th district. While the price of a private room is nearly as much as an entire room or apartment the private rooms are frequently loft spaces or part of a duplex that are much nicer than entire apartments listed at the same price. The private rooms in this district generally have private bathrooms but do share a common entrance space or outdoor living space.   
+5. **My suggestion for best value** is to search for a private room within the 8th district. While the price of a private room is nearly as much as an entire room or apartment the private rooms are frequently loft spaces or part of a duplex that are much nicer than entire apartments listed at the same price. The private rooms in this district generally have private bathrooms but do share a common entrance space or outdoor living space.   
 
 ## Link to public post on this project
 I have summarized my analysis on these data in a blog post that you can read here. **INSERT LINK**  
