@@ -1,6 +1,8 @@
 ## Traveling to Paris, France? How to get the biggest bang from your buck using Airbnb.
 
-TO DO : INSERT LINK TO BLOG POST, PROOFREAD, ADD IN R2 score from RF prediction.
+## Link to public post on this project
+I have summarized my analysis on these data in a blog post that you can read [here.](http://eherdtersmith.rbind.io/post/traveling-to-paris-france-how-to-get-the-biggest-bang-from-your-buck-using-airbnb/)
+
 
 ## Project Motivation
 There are more than 50,000 Airbnb listings in Paris, France (at the time of this analysis) spread across Paris’ 20 unique neighborhoods (or districts). The number of listings by room type and property type can be overwhelming for a traveler using Airbnb to determine which listings would be considered **best value** options. The goal of this analysis is to gain insight into the trends in listing price and distill the data into a few key points or take-aways that would be useful and informative to future travelers to Paris. I provide my **Best Value** suggestion in the **Summary of Results** section which is based on the insight that I gained in this analysis.
